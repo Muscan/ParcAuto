@@ -1,5 +1,2 @@
-Volvo,1000,2300,Verde,1940,fata,True
-Audi,3321,5000,Neagra,1992,fwd,False
-ATV,2199,4399,Roz,2001,Quattro,True
-Tico,2111,23232,Rosie,2321,AWD,True
+Audi,2111,23232,Rosie,2321,AWD,True
 

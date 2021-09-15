@@ -91,6 +91,9 @@ namespace ParcAuto
 
         public void readFileTxt()
         {
+
+            masini.Clear();
+
             StreamReader read = new StreamReader(@"../../../Masini.txt");
             String line = "";
             line = read.ReadLine();

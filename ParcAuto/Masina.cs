@@ -31,6 +31,10 @@ namespace ParcAuto
             this.status = status;
         }
 
+        public Masina(string marca)
+        {
+            this.marca = marca;
+        }
         public void setMarca(string marca)
         {
             this.marca = marca;

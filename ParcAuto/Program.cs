@@ -17,21 +17,21 @@ namespace ParcAuto
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-          //  Application.Run(new Form1());
+            Application.Run(new Home());
 
 
-            ControllerMasina cm = new ControllerMasina();
-            Masina m = new Masina("Tico", 2111, 23232,"Rosie", 2321, "AWD",true);
+            //ControllerMasina cm = new ControllerMasina();
+            //Masina m = new Masina("Ticon", 2111, 23232,"Rosie", 2321, "AWD",true);
 
-            //https://www.autovit.ro/
 
-            //cm.Delete("Dacia");
+            ////cm.printAllCars();
+            ////cm.Delete("Tico");
 
-            cm.Add(m);
-            m.toSave();
-            cm.saveToFileTxt();
-            
-            MessageBox.Show(cm.printAllCars());
+            //cm.Add(m);
+            //m.toSave();
+            //cm.saveToFileTxt();
+
+            //MessageBox.Show(cm.printAllCars());
 
 
 
