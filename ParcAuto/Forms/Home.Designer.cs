@@ -62,10 +62,10 @@ namespace ParcAuto
             this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnPrint.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnPrint.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnPrint.Location = new System.Drawing.Point(851, 439);
+            this.btnPrint.Location = new System.Drawing.Point(851, 428);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Padding = new System.Windows.Forms.Padding(4, 5, 5, 5);
-            this.btnPrint.Size = new System.Drawing.Size(98, 43);
+            this.btnPrint.Size = new System.Drawing.Size(103, 54);
             this.btnPrint.TabIndex = 0;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = false;
@@ -75,7 +75,7 @@ namespace ParcAuto
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblMarca.Location = new System.Drawing.Point(7, 189);
+            this.lblMarca.Location = new System.Drawing.Point(12, 189);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(63, 24);
             this.lblMarca.TabIndex = 1;
@@ -85,7 +85,7 @@ namespace ParcAuto
             // 
             this.lblPret.AutoSize = true;
             this.lblPret.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblPret.Location = new System.Drawing.Point(121, 189);
+            this.lblPret.Location = new System.Drawing.Point(174, 189);
             this.lblPret.Name = "lblPret";
             this.lblPret.Size = new System.Drawing.Size(46, 24);
             this.lblPret.TabIndex = 2;
@@ -96,10 +96,10 @@ namespace ParcAuto
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnUpdate.Location = new System.Drawing.Point(851, 195);
+            this.btnUpdate.Location = new System.Drawing.Point(851, 189);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Padding = new System.Windows.Forms.Padding(4, 5, 5, 5);
-            this.btnUpdate.Size = new System.Drawing.Size(98, 56);
+            this.btnUpdate.Size = new System.Drawing.Size(103, 62);
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -108,7 +108,7 @@ namespace ParcAuto
             // txtBoxNume
             // 
             this.txtBoxNume.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxNume.Location = new System.Drawing.Point(3, 219);
+            this.txtBoxNume.Location = new System.Drawing.Point(12, 219);
             this.txtBoxNume.Name = "txtBoxNume";
             this.txtBoxNume.Size = new System.Drawing.Size(98, 32);
             this.txtBoxNume.TabIndex = 4;
@@ -117,7 +117,7 @@ namespace ParcAuto
             // txtBoxPret
             // 
             this.txtBoxPret.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxPret.Location = new System.Drawing.Point(117, 219);
+            this.txtBoxPret.Location = new System.Drawing.Point(174, 219);
             this.txtBoxPret.Name = "txtBoxPret";
             this.txtBoxPret.Size = new System.Drawing.Size(105, 32);
             this.txtBoxPret.TabIndex = 5;
@@ -130,7 +130,7 @@ namespace ParcAuto
             this.btnAdd.Location = new System.Drawing.Point(851, 61);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Padding = new System.Windows.Forms.Padding(4, 5, 5, 5);
-            this.btnAdd.Size = new System.Drawing.Size(98, 58);
+            this.btnAdd.Size = new System.Drawing.Size(103, 58);
             this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -140,7 +140,7 @@ namespace ParcAuto
             // 
             this.lblAddMarca.AutoSize = true;
             this.lblAddMarca.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddMarca.Location = new System.Drawing.Point(3, 23);
+            this.lblAddMarca.Location = new System.Drawing.Point(-2, 37);
             this.lblAddMarca.Name = "lblAddMarca";
             this.lblAddMarca.Size = new System.Drawing.Size(103, 24);
             this.lblAddMarca.TabIndex = 7;
@@ -150,7 +150,7 @@ namespace ParcAuto
             // 
             this.lblAddPret.AutoSize = true;
             this.lblAddPret.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddPret.Location = new System.Drawing.Point(103, 23);
+            this.lblAddPret.Location = new System.Drawing.Point(103, 37);
             this.lblAddPret.Name = "lblAddPret";
             this.lblAddPret.Size = new System.Drawing.Size(86, 24);
             this.lblAddPret.TabIndex = 8;
@@ -160,7 +160,7 @@ namespace ParcAuto
             // 
             this.lblAddMotor.AutoSize = true;
             this.lblAddMotor.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddMotor.Location = new System.Drawing.Point(190, 23);
+            this.lblAddMotor.Location = new System.Drawing.Point(195, 37);
             this.lblAddMotor.Name = "lblAddMotor";
             this.lblAddMotor.Size = new System.Drawing.Size(101, 24);
             this.lblAddMotor.TabIndex = 9;
@@ -170,7 +170,7 @@ namespace ParcAuto
             // 
             this.lblAddCuloare.AutoSize = true;
             this.lblAddCuloare.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddCuloare.Location = new System.Drawing.Point(297, 23);
+            this.lblAddCuloare.Location = new System.Drawing.Point(297, 37);
             this.lblAddCuloare.Name = "lblAddCuloare";
             this.lblAddCuloare.Size = new System.Drawing.Size(118, 24);
             this.lblAddCuloare.TabIndex = 10;
@@ -181,7 +181,7 @@ namespace ParcAuto
             // 
             this.lblAddAnFabricatie.AutoSize = true;
             this.lblAddAnFabricatie.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddAnFabricatie.Location = new System.Drawing.Point(420, 23);
+            this.lblAddAnFabricatie.Location = new System.Drawing.Point(420, 37);
             this.lblAddAnFabricatie.Name = "lblAddAnFabricatie";
             this.lblAddAnFabricatie.Size = new System.Drawing.Size(166, 24);
             this.lblAddAnFabricatie.TabIndex = 11;
@@ -191,7 +191,7 @@ namespace ParcAuto
             // 
             this.lblAddTractiune.AutoSize = true;
             this.lblAddTractiune.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddTractiune.Location = new System.Drawing.Point(592, 23);
+            this.lblAddTractiune.Location = new System.Drawing.Point(592, 37);
             this.lblAddTractiune.Name = "lblAddTractiune";
             this.lblAddTractiune.Size = new System.Drawing.Size(134, 24);
             this.lblAddTractiune.TabIndex = 12;
@@ -202,7 +202,7 @@ namespace ParcAuto
             this.txtBoxAddMarca.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBoxAddMarca.Location = new System.Drawing.Point(3, 75);
             this.txtBoxAddMarca.Name = "txtBoxAddMarca";
-            this.txtBoxAddMarca.Size = new System.Drawing.Size(82, 32);
+            this.txtBoxAddMarca.Size = new System.Drawing.Size(94, 32);
             this.txtBoxAddMarca.TabIndex = 14;
             // 
             // txtBoxAddPret
@@ -210,39 +210,39 @@ namespace ParcAuto
             this.txtBoxAddPret.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBoxAddPret.Location = new System.Drawing.Point(103, 75);
             this.txtBoxAddPret.Name = "txtBoxAddPret";
-            this.txtBoxAddPret.Size = new System.Drawing.Size(79, 32);
+            this.txtBoxAddPret.Size = new System.Drawing.Size(86, 32);
             this.txtBoxAddPret.TabIndex = 15;
             // 
             // txtBoxAddMotor
             // 
             this.txtBoxAddMotor.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxAddMotor.Location = new System.Drawing.Point(206, 75);
+            this.txtBoxAddMotor.Location = new System.Drawing.Point(195, 75);
             this.txtBoxAddMotor.Name = "txtBoxAddMotor";
-            this.txtBoxAddMotor.Size = new System.Drawing.Size(85, 32);
+            this.txtBoxAddMotor.Size = new System.Drawing.Size(96, 32);
             this.txtBoxAddMotor.TabIndex = 16;
             // 
             // txtBoxAddCuloare
             // 
             this.txtBoxAddCuloare.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxAddCuloare.Location = new System.Drawing.Point(333, 75);
+            this.txtBoxAddCuloare.Location = new System.Drawing.Point(297, 75);
             this.txtBoxAddCuloare.Name = "txtBoxAddCuloare";
-            this.txtBoxAddCuloare.Size = new System.Drawing.Size(82, 32);
+            this.txtBoxAddCuloare.Size = new System.Drawing.Size(97, 32);
             this.txtBoxAddCuloare.TabIndex = 17;
             // 
             // txtBoxAnFabricatie
             // 
             this.txtBoxAnFabricatie.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxAnFabricatie.Location = new System.Drawing.Point(473, 75);
+            this.txtBoxAnFabricatie.Location = new System.Drawing.Point(441, 75);
             this.txtBoxAnFabricatie.Name = "txtBoxAnFabricatie";
-            this.txtBoxAnFabricatie.Size = new System.Drawing.Size(84, 32);
+            this.txtBoxAnFabricatie.Size = new System.Drawing.Size(100, 32);
             this.txtBoxAnFabricatie.TabIndex = 18;
             // 
             // txtBoxAddTractiune
             // 
             this.txtBoxAddTractiune.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxAddTractiune.Location = new System.Drawing.Point(620, 75);
+            this.txtBoxAddTractiune.Location = new System.Drawing.Point(592, 75);
             this.txtBoxAddTractiune.Name = "txtBoxAddTractiune";
-            this.txtBoxAddTractiune.Size = new System.Drawing.Size(84, 32);
+            this.txtBoxAddTractiune.Size = new System.Drawing.Size(96, 32);
             this.txtBoxAddTractiune.TabIndex = 19;
             // 
             // rpBoxStatus
@@ -250,9 +250,9 @@ namespace ParcAuto
             this.rpBoxStatus.Controls.Add(this.rdoBtnFalse);
             this.rpBoxStatus.Controls.Add(this.rdoBtnTrue);
             this.rpBoxStatus.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rpBoxStatus.Location = new System.Drawing.Point(732, 36);
+            this.rpBoxStatus.Location = new System.Drawing.Point(745, 37);
             this.rpBoxStatus.Name = "rpBoxStatus";
-            this.rpBoxStatus.Size = new System.Drawing.Size(91, 83);
+            this.rpBoxStatus.Size = new System.Drawing.Size(91, 70);
             this.rpBoxStatus.TabIndex = 21;
             this.rpBoxStatus.TabStop = false;
             this.rpBoxStatus.Text = "Status";
@@ -273,7 +273,7 @@ namespace ParcAuto
             // 
             this.rdoBtnTrue.AutoSize = true;
             this.rdoBtnTrue.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rdoBtnTrue.Location = new System.Drawing.Point(7, 25);
+            this.rdoBtnTrue.Location = new System.Drawing.Point(6, 25);
             this.rdoBtnTrue.Name = "rdoBtnTrue";
             this.rdoBtnTrue.Size = new System.Drawing.Size(72, 28);
             this.rdoBtnTrue.TabIndex = 0;
@@ -285,7 +285,7 @@ namespace ParcAuto
             // 
             this.lblDeleteMarca.AutoSize = true;
             this.lblDeleteMarca.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDeleteMarca.Location = new System.Drawing.Point(7, 304);
+            this.lblDeleteMarca.Location = new System.Drawing.Point(12, 301);
             this.lblDeleteMarca.Name = "lblDeleteMarca";
             this.lblDeleteMarca.Size = new System.Drawing.Size(128, 24);
             this.lblDeleteMarca.TabIndex = 22;
@@ -294,9 +294,9 @@ namespace ParcAuto
             // txtBoxDeleteMarca
             // 
             this.txtBoxDeleteMarca.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBoxDeleteMarca.Location = new System.Drawing.Point(10, 344);
+            this.txtBoxDeleteMarca.Location = new System.Drawing.Point(7, 340);
             this.txtBoxDeleteMarca.Name = "txtBoxDeleteMarca";
-            this.txtBoxDeleteMarca.Size = new System.Drawing.Size(125, 32);
+            this.txtBoxDeleteMarca.Size = new System.Drawing.Size(133, 32);
             this.txtBoxDeleteMarca.TabIndex = 23;
             // 
             // btnDeleteMarca
@@ -304,10 +304,10 @@ namespace ParcAuto
             this.btnDeleteMarca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnDeleteMarca.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnDeleteMarca.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnDeleteMarca.Location = new System.Drawing.Point(851, 335);
+            this.btnDeleteMarca.Location = new System.Drawing.Point(851, 327);
             this.btnDeleteMarca.Name = "btnDeleteMarca";
             this.btnDeleteMarca.Padding = new System.Windows.Forms.Padding(4, 5, 5, 5);
-            this.btnDeleteMarca.Size = new System.Drawing.Size(98, 49);
+            this.btnDeleteMarca.Size = new System.Drawing.Size(103, 57);
             this.btnDeleteMarca.TabIndex = 24;
             this.btnDeleteMarca.Text = "Delete";
             this.btnDeleteMarca.UseVisualStyleBackColor = false;
@@ -317,7 +317,7 @@ namespace ParcAuto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(991, 570);
             this.Controls.Add(this.btnDeleteMarca);
             this.Controls.Add(this.txtBoxDeleteMarca);
@@ -343,8 +343,10 @@ namespace ParcAuto
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.btnPrint);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
             this.Padding = new System.Windows.Forms.Padding(4, 5, 5, 5);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             this.rpBoxStatus.ResumeLayout(false);
