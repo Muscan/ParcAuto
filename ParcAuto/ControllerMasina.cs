@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Windows.Forms;
 
 namespace ParcAuto
 {
@@ -54,10 +55,10 @@ namespace ParcAuto
             if (index != -1)
             {
                 masini[index].setPret(pret);
-                Console.WriteLine("Pretul a fost updatat");
+                MessageBox.Show("Pretul a fost updatat");
                 return true;
             }
-            Console.WriteLine("Masin anu a fost gasita");
+            MessageBox.Show("Masina nu a fost gasita");
             return false;
         }
         //Add
@@ -67,10 +68,10 @@ namespace ParcAuto
             if (index == -1)
             {
                 this.masini.Add(masina);
-                Console.WriteLine("Item Added!");
+                MessageBox.Show("Item Added!");
                 return true;
             }
-            Console.WriteLine("Item exists");
+            MessageBox.Show("Item exists");
             return false;
         }
         //delete
@@ -79,11 +80,11 @@ namespace ParcAuto
             int index = carIndex(masina);
             if (index != -1)
             {
-                Console.WriteLine("Item " + masini[index].getMarca() + " deleted");
+                MessageBox.Show("Item " + masini[index].getMarca() + " deleted");
                 this.masini.RemoveAt(index);
                 return true;
             }
-            Console.WriteLine("Item not deleted ");
+            MessageBox.Show("Item not deleted ");
             return false;
         }
 

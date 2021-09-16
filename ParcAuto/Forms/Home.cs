@@ -52,11 +52,17 @@ namespace ParcAuto
             if (btnAdd.Enabled == true)
             {
 
-
                 createCar(txtBoxAddMarca, txtBoxAddPret, txtBoxAddMotor, txtBoxAddCuloare, txtBoxAnFabricatie,
                           txtBoxAddTractiune);
-               
             }
+        }
+
+        private void updateCar(TextBox Marca, TextBox Pret)
+        {
+            String marca = Marca.Text;
+            int pret = int.Parse(Pret.Text);
+            controller.Update(marca, pret);
+            controller.saveToFileTxt();
         }
 
         public static bool isSelected( RadioButton rdo2, RadioButton rdo1)
@@ -111,12 +117,12 @@ namespace ParcAuto
             }
         }
 
-       /* private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
             if (btnUpdate.Enabled == true)
             {
-                
+                updateCar(txtBoxNume, txtBoxPret);
             }
-        }*/
+        }
     }
 }
